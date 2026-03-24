@@ -46,7 +46,7 @@ st.markdown("<h1 class='main-title'>NEBULA VITAL</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align:center; color:#00FFCC; letter-spacing:4px; font-size:0.7rem;'>SISTEMA MÉDICO DE ASISTENCIA INTEGRAL</p>", unsafe_allow_html=True)
 
 # --- 2. PANEL DE CONTACTO DIRECTO (CORREGIDO) ---
-MI_NUMERO = "51942185939"
+MI_NUMERO = st.secrets["TELEFONO"]
 
 st.markdown("### 🚨 ACCIÓN INMEDIATA")
 c_tel, c_wa = st.columns(2)
